@@ -1,0 +1,30 @@
+.v-main {
+  .v-main__wrap {
+    .container--fluid {
+      padding: 0;
+    }
+  }
+}
+
+main {
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+
+  .l-column-20 {
+    width: 20%;
+    padding: 12px;
+  }
+  .l-column-50 {
+    width: 50%;
+    padding: 12px;
+  }
+  .l-column-80 {
+    width: 80%;
+    padding: 12px;
+  }
+  .l-column-100 {
+    width: 100%;
+    padding: 12px;
+  }
+}

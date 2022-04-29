@@ -1,0 +1,29 @@
+//z-index
+$z-index-balloon: 1001;
+$z-index-overlay-content: 1000;
+$z-index-overlay: 999;
+$z-index-nav: 997;
+$z-index-l-overlay: 996;
+$z-index-form-overlay: 100;
+$z-index-l-title-area: 99;
+$z-index-footer: 98;
+$z-index-main: 97;
+$z-index-col1: 40;
+$z-index-col2: 30;
+$z-index-col3: 20;
+$z-index-col4: 10;
+
+//height
+$h-pc-header-inner: 48px;
+
+//color
+$base-color: #0f4584;
+$base-color-light: #3068aa;
+$base-color-dark: #06274e;
+$button-primary-color-hover: rgba(15, 69, 132, 0.9);
+$button-primary-g-color-hover: rgba(233, 242, 253, 0.5);
+
+//transition
+$t-fast-ease: all 0.1s ease;
+$t-normal-ease: all 0.3s ease;
+$t-apple: all 0.25s linear;

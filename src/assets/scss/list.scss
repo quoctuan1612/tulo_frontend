@@ -1,0 +1,31 @@
+dl {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-column-gap: 16px;
+  + fieldset,
+  + dl {
+    margin-top: 12px;
+  }
+  dt {
+    font-weight: bold;
+    color: $base-color;
+  }
+  &.t-w-xsmall {
+    grid-template-columns: 60px 1fr;
+  }
+  &.t-w-small {
+    grid-template-columns: 90px 1fr;
+  }
+  &.t-w-large {
+    grid-template-columns: 140px 1fr;
+  }
+  &.t-liquid {
+    grid-template-columns: auto 1fr;
+  }
+  &.t-liquid-bold {
+    grid-template-columns: auto 1fr;
+    dd {
+      font-weight: bold;
+    }
+  }
+}
